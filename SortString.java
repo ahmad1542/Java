@@ -20,7 +20,7 @@ public class SortString {
             return new String(strArr);
         }
         else {
-            return "Please enter a string to sort it.";
+            return "Please enter";
         }
     }
 
