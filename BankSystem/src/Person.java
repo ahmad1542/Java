@@ -47,6 +47,10 @@ public class Person {
         this.lastName = lastName;
     }
 
+    public String FullName() {
+        return firstName + " " + lastName;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
